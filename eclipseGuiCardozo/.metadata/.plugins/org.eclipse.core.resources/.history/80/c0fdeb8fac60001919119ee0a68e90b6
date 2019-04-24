@@ -1,0 +1,39 @@
+package br.com.guilherme.control;
+
+import javax.swing.JTextField;
+
+import br.com.guilherme.model.Fornecedor;
+import br.com.guilherme.utilitario.Mensagem;
+
+public class ControladorFornecedor {
+
+	private JTextField jtfNome;
+	private JTextField jtfCnpj;
+	private JTextField jtfEndereco;
+	private JTextField jtfEmail;
+
+
+	public ControladorFornecedor(JTextField jtfNome, JTextField jtfCnpj, JTextField jtfEndereco, JTextField jtfEmail
+			) {
+		super();
+		this.jtfNome = jtfNome;
+		this.jtfCnpj = jtfCnpj;
+		this.jtfEndereco = jtfEndereco;
+		this.jtfEmail = jtfEmail;
+	}
+
+	private void incializarObjetos(Fornecedor fornecedor) {
+		fornecedor.setNome(jtfNome.getText());
+		fornecedor.setCNPJ(jtfCnpj.getText());
+		fornecedor.setEndereco(jtfEndereco.getText());
+		fornecedor.seteMail(jtfEmail.getText());
+		
+		
+	
+	}
+	
+	private void imprimirObjetoPreenchido() {
+		Mensagem.exibirMensagem(msg);
+	}
+
+}

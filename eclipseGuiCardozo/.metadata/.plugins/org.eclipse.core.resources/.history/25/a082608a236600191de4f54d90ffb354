@@ -1,0 +1,7 @@
+package br.com.guilherme.repositorio;
+
+import java.sql.Connection;
+
+public abstract class RepositorioBase<T> implements IRepositorioBase<T> {
+	protected Connection conexaoSisProjeto;
+}

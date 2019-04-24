@@ -1,0 +1,9 @@
+package br.com.guilherme.utilitario;
+
+public class Conexao {
+
+	public void ConectarBD{
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+package br.com.guilherme.utilitario;
+
+public class Conexao {
+	private String serverName = "localhost";
+	private String BancoDeDados = "sisprojeto";
+	private String usuario = "root";
+	private String senha = "12345678";
+	private String url="jdbc:mysql://"+serverName+"/"+bancoDeDados;
+	private String driver;
+}

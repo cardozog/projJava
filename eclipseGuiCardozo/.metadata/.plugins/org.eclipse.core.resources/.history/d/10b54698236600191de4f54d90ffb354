@@ -1,0 +1,30 @@
+package br.com.guilherme.repositorio;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import br.com.guilherme.utilitario.Conexao;
+
+public abstract class RepositorioBase<T> implements IRepositorioBase<T> {
+	protected Connection conexaoSisProjeto;
+	protected PreparedStatement comando;
+	
+	protected String NENHUM_REGISTRO_ENCONTRADO = "Nenhum registro foi encontrado";
+	
+	public RepositorioBase() {
+		conexaoSisProjeto= new Conexao().obterConexaoSisProjeto();
+		comando = null;
+	}
+	public void encerrarComando() {
+		try {
+			comando.close();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public void encerrarConexao() {
+		try {
+			conexao
+		}
+	}
+}

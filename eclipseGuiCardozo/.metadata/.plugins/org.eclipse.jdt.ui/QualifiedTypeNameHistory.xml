@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.guilherme.utilitario.Mensagem"/>
+<fullyQualifiedTypeName name="br.com.guilherme.control.ControladorFornecedor"/>
+<fullyQualifiedTypeName name="br.com.guilherme.model.Fornecedor"/>
+</qualifiedTypeNameHistroy>

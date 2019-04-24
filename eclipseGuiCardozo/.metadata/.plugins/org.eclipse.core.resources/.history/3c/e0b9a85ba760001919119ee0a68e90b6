@@ -1,0 +1,10 @@
+package br.com.guilherme.model;
+
+public class Fornecedor {
+
+	 private Long id;
+	 private String nome;
+	 private String eMail;
+	 private String CNPJ;
+	 private String endereco;
+}    

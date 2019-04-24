@@ -1,0 +1,11 @@
+import br.com.guilherme.control.ControladorFornecedor;
+import br.com.guilherme.model.Fornecedor;
+
+public class TesteFakeNews {
+
+	ControladorFornecedor fornecedor;
+	
+	public void testarObjeto() {
+		fornecedor = new Fornecedor(id, nome, eMail, cNPJ, endereco);
+	}
+}
